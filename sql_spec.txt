@@ -1,0 +1,25 @@
+# Mini-SQL Specifications (what declarations are allowed)
+
+## Supported Commands
+
+1. CREATE TABLE <table> (<column> <type>, ...);
+   Example: CREATE TABLE users (id INT, name TEXT);
+
+2. INSERT INTO <table> VALUES (<value>, ...);
+   Example: INSERT INTO users VALUES (1, 'Alice');
+
+3. SELECT * FROM <table>;
+   Example: SELECT * FROM users;
+
+4. EXIT;
+
+## Allowed Datatypes
+
+- INT: integer numbers
+- TEXT: string values enclosed in single quotes
+
+## Notes
+
+- Commands must end with a semicolon (;)
+- No column constraints (no NOT NULL, PRIMARY KEY)
+- No WHERE, UPDATE, DELETE for now
