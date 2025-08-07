@@ -18,7 +18,7 @@
 <p>To run this code, you need to have a C++ compiler installed. I reccomend following this <a href="https://code.visualstudio.com/docs/languages/cpp">tutorial</a>. Even if you have a different code editor, follow this tutorial to download <a href="https://www.mingw-w64.org/">MinGW</a> and run the code below in your terminal.</p>
 
 ```bash
-git clone https://github.com/aakashvishcoder/mini-sql-database.git](https://github.com/aakashvishcoder/MiniSQL-Database-using-cpp.git
+git clone https://github.com/aakashvishcoder/mini-sql-database.git
 cd mini-sql-database
 g++ execute.cpp -o run
 ./run         # On Linux/macOS
