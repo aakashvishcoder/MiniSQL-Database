@@ -7,7 +7,13 @@
 
 ## Complications
 
+<p>While creating this project, I had some minor difficulties with implementing the file structures. Before this project, I had never seen or used hpp files in my C++ projects, and as such, I had no idea how to implement them. However, through research, this problem became quite trivial. The next issue I had was the memory implementation. While creating the project, I consistently checked if my memory was being used favorably, but that proved to be quite a hassle in the long run.</p>
+
 ## Tech Stack
+
+- C++
+
+## How to Use
 
 ```
 git clone repo
